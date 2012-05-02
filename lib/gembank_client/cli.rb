@@ -12,7 +12,7 @@ module GembankClient
 
     def run
       Choice.options do
-        banner('Usage: gembank_client ACTION --key=KEY --file=GEM_FILE [--url=URL]')
+        banner('Usage: gembank ACTION --key=KEY --file=GEM_FILE [--url=URL]')
         header('Available actions: release')
         header('Options:')
         option(:key, :required => true) do

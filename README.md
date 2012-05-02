@@ -22,7 +22,7 @@ $ gem install gembank_client
 ### Creating / Updating Gems
 
 ```bash
-$ gembank_client release -k c93a3fcd6720bf27b53801d8d7fbc7fa7747df60 -f superman-1.2.3.gem
+$ gembank release -k c93a3fcd6720bf27b53801d8d7fbc7fa7747df60 -f superman-1.2.3.gem
 ```
 
 * The SHA1 is the Push-Key allowed to write to GemBucket `superman`. See http://gembank.org/how-does-it-work for details.
