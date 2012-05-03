@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
-require 'gembank_client'
+require 'gembank_client/cli'
 
-GembankClient::CLI.run
+GembankClient::CLI.start(ARGV)

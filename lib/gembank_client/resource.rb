@@ -2,9 +2,7 @@ require 'rest_client'
 
 module GembankClient
   class Resource
-    DEFAULT_URL = 'https://gembank.org'
-
-    def initialize(key, file, url = DEFAULT_URL)
+    def initialize(key, file, url)
       @key, @file, @url = key, file, url
     end
 
