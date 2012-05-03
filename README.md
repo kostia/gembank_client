@@ -1,4 +1,4 @@
-# GemBank-Client is a command line utility for managing Gems on http://gembank.org
+# GemBank-Client is a command line utility for managing Gems on https://gembank.org
 
 
 ## Installation
@@ -22,10 +22,10 @@ $ gem install gembank_client
 ### Creating / Updating Gems
 
 ```bash
-$ gembank release -k c93a3fcd6720bf27b53801d8d7fbc7fa7747df60 -f superman-1.2.3.gem
+$ gembank release c93a3fcd6720bf27b53801d8d7fbc7fa7747df60 superman-1.2.3.gem
 ```
 
-* The SHA1 is the Push-Key allowed to write to GemBucket `superman`. See http://gembank.org/how-does-it-work for details.
+* The SHA1 is the Push-Key allowed to write to GemBucket `superman`. See https://gembank.org/how-does-it-work for details.
 * The file is the Gem you want to create / update.
 
 ### Yanking Gems will follow ASAP.
